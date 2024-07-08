@@ -1,0 +1,19 @@
+.linkItself {
+  display: block;
+  width: 621px;
+  height: 41px;
+  color: #828282;
+  text-decoration: none;
+  font-size: 34px;
+  margin-top: 2%;
+  font-family: "Teko", sans-serif;
+}
+.linkItself:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 768px) {
+  .linkItself {
+    width: 204px;
+    font-size: 20px;
+  }
+}

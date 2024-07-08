@@ -1,0 +1,50 @@
+.feedback {
+  color: white;
+  width: 288px;
+  font-family: "Teko", sans-serif;
+}
+.feedback:not(:first-child) {
+  margin-top: 10%;
+}
+
+.feedback_blurBlock {
+  border-radius: 20px;
+  width: 100%;
+  background: rgba(48, 45, 45, 0.34);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 0 1px yellowgreen;
+}
+
+.feedback_content {
+  display: block;
+  padding: 16px 0 16px 20px;
+}
+
+.feedback_info {
+  display: flex;
+}
+
+.feedback_infoAvatar img {
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+}
+
+.feedback_info__name div {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.feedback_info__name span {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.feedback_text {
+  max-width: 225px;
+  font-size: 18px;
+  line-height: 112%;
+}

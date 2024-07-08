@@ -1,0 +1,23 @@
+.button {
+  width: 532px;
+  margin-top: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #7c6fcf, #74aeaa, #6fcf97);
+  padding: 14px 14px;
+  font-size: 28px;
+  font-weight: 500;
+  color: black;
+  font-family: "Teko", sans-serif;
+  border-radius: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: 0 0 150px rgb(255, 255, 255, 0.1);
+}
+@media only screen and (max-width: 768px) {
+  .button {
+    width: 288px;
+    font-size: 20px;
+  }
+}
